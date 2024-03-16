@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="402dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="끝내기"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_editor_absoluteX="4dp"></Button>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="402dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="응급전화"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp"></Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="402dp"
+        android:layout_height="85dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Google"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        tools:layout_editor_absoluteX="4dp"></Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="402dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="176dp"
+        android:text="갤러리"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="4dp"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
